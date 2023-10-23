@@ -1,3 +1,5 @@
+@file:Suppress("unused")
+
 package no.telenor.kt.color
 
 data class Rgb(val r: UByte, val g: UByte, val b: UByte) {

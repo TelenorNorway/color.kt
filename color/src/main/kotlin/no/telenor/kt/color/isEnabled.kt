@@ -1,3 +1,5 @@
+@file:Suppress("unused")
+
 package no.telenor.kt.color
 
 internal var enabled = System.getenv("NO_COLOR") != "1"
