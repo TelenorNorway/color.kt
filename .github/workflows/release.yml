@@ -22,8 +22,6 @@ jobs:
       contents: read
       security-events: write
       packages: read
-      checks: write
-      pull-requests: write
     name: Quality Assurance
     uses: ./.github/workflows/qa.yml
   versioning:
