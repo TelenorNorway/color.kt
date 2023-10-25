@@ -1,3 +1,5 @@
+@file:Suppress("UNUSED_PARAMETER", "unused")
+
 package no.telenor.kt.color.parsers
 
 import no.telenor.kt.color.Styles

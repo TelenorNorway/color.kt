@@ -5,6 +5,7 @@ import kotlin.test.BeforeTest
 import kotlin.test.Test
 import kotlin.test.assertEquals
 
+@Suppress("unused")
 data class DifferentStyles @EnvConstructor constructor(
 	@Env val namedForeground: Styles,
 )
