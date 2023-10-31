@@ -11,7 +11,7 @@ allprojects {
 	apply(plugin = "maven-publish")
 	apply(plugin = "no.ghpkg")
 
-	group = "no.telenor.jb"
+	group = "no.telenor.kt"
 	version = versioning.environment()
 
 	repositories {
