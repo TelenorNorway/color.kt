@@ -1,5 +1,3 @@
-@file:Suppress("unused")
-
 package no.telenor.kt.color
 
 class Styles(
