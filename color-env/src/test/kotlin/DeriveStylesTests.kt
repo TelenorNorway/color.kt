@@ -1,5 +1,3 @@
-@file:Suppress("unused")
-
 import no.telenor.kt.color.Styles
 import no.telenor.kt.env.*
 import kotlin.test.AfterTest
