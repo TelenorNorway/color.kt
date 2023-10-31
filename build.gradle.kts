@@ -4,6 +4,8 @@ plugins {
 	`maven-publish`
 }
 
+version = versioning.environment()
+
 allprojects {
 	apply(plugin = "org.jetbrains.kotlin.jvm")
 	apply(plugin = "maven-publish")
@@ -27,7 +29,9 @@ allprojects {
 	kotlin {
 		jvmToolchain(17)
 	}
+}
 
+subprojects {
 	publishing {
 		repositories.github.actions()
 		publications.register<MavenPublication>("gpr") {
